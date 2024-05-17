@@ -36,7 +36,7 @@ python3 -m pipenv shell
 Now, from this Pipenv shell, do the following.
 
 ### Edit the Environment variables
-First, copy `./api/app/env.example` to `./api/app/.env`. You can do this by running the following command.
+First, copy `./api/env.example` to `./api/.env`. You can do this by running the following command.
 
 ```sh
 mv env.example .env
