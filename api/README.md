@@ -69,8 +69,12 @@ Locally hosting this application requires adding the following to `./app/core/se
 ```
 
 ### Running the backend
-Run the following commands in order to get the backend up and running at `localhost:8000`.
+Install the follow python packages:
+```sh
+pip install google-api-python-client python-dateutil requests djangorestframework-simplejwt pytz cryptography psycopg2-binary django-allauth dj-rest-auth django-cors-headers djangorestframework python-dotenv django
+```
 
+Run the following commands in order to get the backend up and running at `localhost:8000`.
 ```sh
 python manage.py migrate
 python manage.py runserver
